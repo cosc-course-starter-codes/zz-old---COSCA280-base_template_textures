@@ -26,7 +26,7 @@ Vector::Vector(real const *pElements)
 
 Vector::Vector(real x, real y, real z)
 {
-	this->aElements[X_AXIS] = z;
+	this->aElements[X_AXIS] = x;
 	this->aElements[Y_AXIS] = y;
 	this->aElements[Z_AXIS] = z;
 }
